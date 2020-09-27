@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+
+    "rootDir": "src",
+    "outDir": "dist",
+
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "esModuleInterop": true,
+
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+
+    "lib": ["ESNext"]
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules"]
+}
