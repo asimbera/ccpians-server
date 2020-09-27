@@ -45,7 +45,7 @@ async function main() {
 
   conn.connect().then(() => console.log(`Database online`));
   app.listen(APP_PORT, () => {
-    console.log(`Server at http://localhost:4000${server.graphqlPath}`);
+    console.log(`Server at http://localhost:${APP_PORT + server.graphqlPath}`);
   });
 }
 
